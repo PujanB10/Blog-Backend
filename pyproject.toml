@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "flaskblog"
+version = "1"
+description = "flaskblog"
+authors = ["Your Name <you@example.com>"]
+license = "n"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask-wtf = "^1.1.1"
+flask-sqlalchemy = "^3.0.3"
+email-validator = "^2.0.0.post2"
+flask-bcrypt = "^1.0.1"
+flask-login = "^0.6.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
